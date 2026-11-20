@@ -39,6 +39,7 @@ Invoke `/quality-gate` before claiming work is done. Run it by hand with `~/.cla
 | `skills/prs-fixes/` | PR helper: apply review feedback and resolve threads. |
 | `skills/prs-reviews/` | PR helper: post a Requested Changes review. |
 | `scripts/` | Helper scripts that the skill calls. |
+| `CHANGELOG.md` | Notable changes, in Keep a Changelog format. |
 | `AGENTS.md` | Rules for AI agents that edit this repo. |
 
 The two PR helpers ship in every repo of this family:
