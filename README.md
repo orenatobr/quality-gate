@@ -36,18 +36,9 @@ Invoke `/quality-gate` before claiming work is done. Run it by hand with `~/.cla
 | Path | Purpose |
 |------|---------|
 | `skills/quality-gate/` | The `quality-gate` skill. |
-| `skills/prs-fixes/` | PR helper: apply review feedback and resolve threads. |
-| `skills/prs-reviews/` | PR helper: post a Requested Changes review. |
 | `scripts/` | Helper scripts that the skill calls. |
 | `CHANGELOG.md` | Notable changes, in Keep a Changelog format. |
 | `AGENTS.md` | Rules for AI agents that edit this repo. |
-
-The two PR helpers ship in every repo of this family:
-
-- `prs-fixes`: Applies the suggested fixes on one or more GitHub PRs, pushes them, replies to every review comment and resolves each thread. Example: `/prs-fixes 12, 15`.
-- `prs-reviews`: Reviews one or more GitHub PRs and posts a Requested Changes review, one inline comment per finding, each with an exact location and a suggested change. Example: `/prs-reviews 12, 15`.
-
-They need the `gh` CLI, and they call `git-guidelines`, `humanizer`, `programming-best-practices` and `attack-protection` when those skills are installed.
 
 ## Contributing
 
