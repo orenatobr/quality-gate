@@ -1,6 +1,6 @@
 # AGENTS.md
 
-This repo packages the `quality-gate` agent skill, plus the `prs-fixes` and `prs-reviews` PR helper skills. Agent skill that runs deterministic checks before work is called done.
+This repo packages the `quality-gate` agent skill. Agent skill that runs deterministic checks before work is called done.
 
 ## Layout
 
